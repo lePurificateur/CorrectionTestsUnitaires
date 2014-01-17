@@ -25,6 +25,8 @@ public class TestCursor
 		return p;
 	}
 	
+	// Idem, remplacez l'instantiacion par celle de votre implémentation de la 
+	// classe cursor.
 	private InterfaceCursor getCursor()
 	{
 		return new ImplementCursor();
