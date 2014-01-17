@@ -10,6 +10,7 @@ import specification.*;
 public class TestCursor
 {
 
+	// Pour pouvoir connecter cette classe de tests à n'importe quelle implémentation.
 	private InterfacePoint getPoint()
 	{
 		return new ImplementPoint();
