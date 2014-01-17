@@ -11,6 +11,7 @@ public class TestCursor
 {
 
 	// Pour pouvoir connecter cette classe de tests à n'importe quelle implémentation.
+	// Il vous suffit de remplacer l'instanciation ici par celle de votre classe point.
 	private InterfacePoint getPoint()
 	{
 		return new ImplementPoint();
