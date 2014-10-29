@@ -9,7 +9,7 @@ public class PuissanceAlex implements Puissance
 
     public int pred(int x)
     {
-	return x - 1;
+	return -succ(-x);
     }
 
     public int somme(int a, int b)
